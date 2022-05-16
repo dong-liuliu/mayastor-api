@@ -139,6 +139,7 @@ enum ShareProtocolNexus {
   NEXUS_NBD = 0;    // local
   NEXUS_NVMF = 1;   // NVMe over Fabrics (TCP)
   NEXUS_ISCSI = 2;  // iSCSI
+  NEXUS_VHOSTBLK = 3;  // vhost blk
 }
 
 // Create replica arguments.

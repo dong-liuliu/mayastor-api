@@ -7,4 +7,5 @@ enum ShareProtocol {
   NONE = 0; // not exposed
   NVMF = 1; // NVMe over Fabrics (TCP)
   ISCSI = 2; // iSCSI
+  VHOSTBLK = 3; // vhost blk
 }
